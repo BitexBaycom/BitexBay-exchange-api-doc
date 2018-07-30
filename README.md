@@ -190,3 +190,13 @@ ktim params include:   kline_5m  kline_15m  kline_30m  kline_8h  kline_1d
           ]
         ]
         ```
+### servertime
+
+* **URL**
+  /v2/timestamp.php
+  https://oapi.bitexbay.com/v2/timestamp.php?apikey=863872968a7477d983f6ccf4d2664a01113364
+
+* **Description**
+  Get servertime.
+	
+

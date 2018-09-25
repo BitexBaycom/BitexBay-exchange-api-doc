@@ -29,11 +29,13 @@ Please be kindly noticed that currently this version is in BETA and we may keep 
 The base API endpoint is `https://oapi.bitexbay.com`
 
 apikey =md5(uid+email)+uid;
+demo key: e4b41fe51c934ae686bcaee01c79078d113796
+Please register your own key.
 
 example:
 uid : 11321
-email : me@ofwho.com
-        md5(11321me@ofwho.com)11321
+email : su9@ofwho.com
+        md5(11321su9@ofwho.com)11321
 apikey = 523030c0d5eb5b7321e8655b871beeed11321
 &apikey=YourApiKeyToken  GET params
 
@@ -57,7 +59,7 @@ If API request failed, the response will return HTTP status code, e.g. 500, 401,
 
 * **URL**
   /v2/markets.php
-  https://oapi.bitexbay.com/v2/markets.php?apikey=1a2bfb58b99c7e93f91ba5219bd96ef41
+  https://oapi.bitexbay.com/v2/markets.php?apikey=e4b41fe51c934ae686bcaee01c79078d113796
 
 * **Description**
   Get all available markets.
@@ -90,7 +92,7 @@ If API request failed, the response will return HTTP status code, e.g. 500, 401,
 
 * **URL**
   /v2/depth.php
-  https://oapi.bitexbay.com/v2/depth.php?apikey=1ba2bfb58b99c7e93f91ba5219bd96ef41&currency_id=29&currency_trade_id=30
+  https://oapi.bitexbay.com/v2/depth.php?apikey=e4b41fe51c934ae686bcaee01c79078d113796&currency_id=29&currency_trade_id=30
 
 * **Description**
   Get the depth information of specified market.
@@ -118,7 +120,7 @@ If API request failed, the response will return HTTP status code, e.g. 500, 401,
 
 * **URL**
   /v2/tickers.php
-  https://oapi.bitexbay.com/v2/tickers.php?apikey=1ba2bfb58b99c7e93f91ba5219bd96ef41&tid=MOC-BTC
+  https://oapi.bitexbay.com/v2/tickers.php?apikey=e4b41fe51c934ae686bcaee01c79078d113796&tid=MOC-BTC
 * **Description**
   Get recent trades on market, each trade is included only once. Trades are sorted in reverse creation order.
 
@@ -127,7 +129,7 @@ If API request failed, the response will return HTTP status code, e.g. 500, 401,
 
 * **URL**
   /v2/timestamp.php
-  https://oapi.bitexbay.com/v2/timestamp.php?apikey=1ba2bfb58b99c7e93f91ba5219bd96ef41
+  https://oapi.bitexbay.com/v2/timestamp.php?apikey=e4b41fe51c934ae686bcaee01c79078d113796
 
 * **Description**
   Get server current time, in seconds since Unix epoch.
@@ -151,7 +153,7 @@ If API request failed, the response will return HTTP status code, e.g. 500, 401,
 
 * **URL**
   /v2/klines.php
-  https://oapi.bitexbay.com/v2/klines.php?apikey=1ba2bfb58b99c7e93f91ba5219bd96ef41&currency_id=29&currency_trade_id=30&ktime=kline_1h
+  https://oapi.bitexbay.com/v2/klines.php?apikey=e4b41fe51c934ae686bcaee01c79078d113796&currency_id=29&currency_trade_id=30&ktime=kline_1h
 
 * **Description**
   Get OHLC(k line) of specific market.
@@ -164,7 +166,7 @@ ktim params include:   kline_5m  kline_15m  kline_30m  kline_8h  kline_1d
 
 * **Example Request:**
     * **Request:**
-    `GET /v2/klines.php?apikey=1ba2bfb58b99c7e93f91ba5219bd96ef41&currency_id=29&currency_trade_id=30
+    `GET /v2/klines.php?apikey=e4b41fe51c934ae686bcaee01c79078d113796&currency_id=29&currency_trade_id=30
   
     * **Success Response:**  
         * **Code:** 200
@@ -194,7 +196,7 @@ ktim params include:   kline_5m  kline_15m  kline_30m  kline_8h  kline_1d
 
 * **URL**
   /v2/timestamp.php
-  https://oapi.bitexbay.com/v2/timestamp.php?apikey=863872968a7477d983f6ccf4d2664a01113364
+  https://oapi.bitexbay.com/v2/timestamp.php?apikey=e4b41fe51c934ae686bcaee01c79078d113796
 
 * **Description**
   Get servertime.
